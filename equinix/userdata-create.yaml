@@ -1,0 +1,12 @@
+#cloud-config
+token: token           # replace with a desired token
+os:
+  password: root   # replace with a your password
+  ntp_servers:
+  - 0.suse.pool.ntp.org
+  - 1.suse.pool.ntp.org
+install:
+  mode: create
+  device: /dev/sda
+  iso_url: http://52.68.70.223/harvester-v1.0.2-amd64.iso
+  tty: ttyS1,115200n8
