@@ -10,3 +10,5 @@ install:
   device: /dev/sda
   iso_url: http://52.68.70.223/harvester-v1.0.2-amd64.iso
   tty: ttyS1,115200n8
+  vip: ${management_private_id}
+  vip_mode: static
