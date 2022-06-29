@@ -8,7 +8,7 @@ os:
 install:
   mode: create
   device: /dev/sda
-  iso_url: http://54.238.159.33/harvester-v1.0.2-amd64.iso
+  iso_url: http://147.28.156.11:52080/harvester-v1.0.2-amd64.iso
   tty: ttyS1,115200n8
   vip: ${management_private_id}
   vip_mode: static
