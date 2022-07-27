@@ -9,5 +9,5 @@ os:
 install:
   mode: join
   device: /dev/sda
-  iso_url: http://147.28.156.11:52080/harvester-v1.0.2-amd64.iso
+  iso_url: http://yufa-dev.s3.ap-east-1.amazonaws.com/harvester-v1.0.3-rc1-amd64.iso
   tty: ttyS1,115200n8
